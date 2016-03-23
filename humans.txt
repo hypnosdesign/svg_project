@@ -1,0 +1,42 @@
+WHO
+Mattia Piano
+@hypnosdesign
+start: 23/03/2016
+end:
+
+
+TECHNOLOGY
+Html5, Css, Sass, CodeKit, SVG
+
+
+
+EDITOR
+https://atom.io/ • ATOM
+configuration
+  fontFamily: "Roboto Mono"
+  fontSize: 16
+  scrollPastEnd: true
+  showIndentGuide: true
+  softWrap: true
+plugins:
+  https://github.com/merrihew/atom-jade • ATOM JADE
+  http://emmet.io • EMMET
+  https://github.com/peterjohnhunt/emmet-snippets-compatibility • EMMET SNIPPETS COMPATIBILITY
+  https://github.com/DanBrooker/file-icons • FILE ICONS
+  https://atom.io/packages/minimap • MINIMAP
+  https://github.com/abe33/minimap-pigments • MINMAP PIGMENTS
+  https://github.com/abe33/atom-pigments • PIGMENTS
+  https://atom.io/packages/terminal-plus • TERMINAL PLUS
+
+
+
+NOTE
+
+Image's sizes
+
+background    : 53px 50px
+logo          : 140px 120px
+corgi-*       : 170px 170px
+nav-heart     : 28px 24px
+nav-location  : 24px 24px
+nav-contact   : 28px 24px

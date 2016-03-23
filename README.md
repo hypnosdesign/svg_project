@@ -23,22 +23,22 @@ To complete this project, follow the instructions below. If you get stuck, ask a
 
 **10 Steps**
 --------
-**1**
+**1** [x]
 Replace the background pattern PNG with the matching SVG (background.svg). Use CSS to resize the SVG to match the original design.
 
 ----------
 
-**2**
+**2** [x]
 Replace rasterized PNG logo with the SVG logo image (logo.svg): use the inline SVG method to add it (you'll use CSS to modify the image).
 ________________________
 
-**3**
+**3** [x]
 At a page width of less than 420 pixels remove the text from the logo and add an H1 tag that contains the logo text.
 ________
-**4**
+**4** [x]
 Replace dogs with SVG images using the <img> tag.
 _____________
-**5**
+**5** [x]
 Change icons in the menu from rasterized images to inline SVGs.
 _______
 **6**
