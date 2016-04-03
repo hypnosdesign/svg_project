@@ -44,19 +44,24 @@ _______
 **6** [x]
 When a user hovers over the menu icons, use CSS to change their color to match the text color.
 ________
-**7**
+**7** [x]
 You will need to check your website in at least 3 different browsers to ensure the SVG images you have added load correctly and look the same across different browsers.
 
 + You can use Chrome and Firefox, if you have a PC also check your site using Internet Explorer and if you have a Mac check it using Safari.
 
 ______
-**8**
+**8** [x]
 When submitting your project be sure to make a note in the comments which browsers and versions you have tested with.
+	tested with:
+	Google Chrome 49.0.2623.110 (64-bit)
+	Mozilla Firefox 45.0.1
+	Apple Safari 9.0.3 (11601.4.4)
+	OS: OSX el Capitan 10.11.3
 ______
-**9**
+**9** [x]
 And remember you can only use an 'ID' once so double check the SVG images when adding them.
 ______
-**10**
+**10** [x]
 Make sure to check your code is valid by running it through an HTML and CSS validator.
 
 + Links to the validators can be found in the Project Resources. This will help you spot any errors that might be in your code.
@@ -77,5 +82,5 @@ To get an "exceeds" rating, you can expand on the project in the following ways:
 **1** [x]
 Use inline SVGs for the images of the dogs and then change the color of the dogs' coats using CSS to match the original colors of the dogs. (You can find the colors used by looking at the CSS within the SVG dog files)
 _______
-**2**
+**2** [x]
 Add additional CSS effects, like transition effects to the menu icon hover state.
