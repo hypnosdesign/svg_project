@@ -24,6 +24,10 @@ a {
   color: #39add1;
   font-weight: 700;
   transition: .3s ease-in-out; }
+  a img {
+    height: 13px; }
+    a img.icon-visit {
+      height: 14px; }
   a:hover {
     color: #111; }
     a:hover img {
@@ -35,6 +39,15 @@ header {
   padding-top: 10px; }
   header h1 {
     line-height: 1em; }
+    header h1.logo-title {
+      color: #eaaa7f;
+      text-transform: uppercase;
+      display: none;
+      padding: 0 0 20px;
+      margin: 0; }
+      @media (max-width: 420px) {
+        header h1.logo-title {
+          display: inherit; } }
   header nav {
     padding-bottom: 50px;
     text-align: left; }
@@ -62,27 +75,15 @@ main {
 svg {
   width: 170px;
   height: 170px; }
+
+svg.logo-image {
+  width: 140px;
+  height: 120px; }
   @media (max-width: 420px) {
-    svg {
+    svg.logo-image {
       margin-top: -30px; }
-      svg .st1 {
+      svg.logo-image .st1 {
         display: none; } }
-
-.logo-title {
-  color: #eaaa7f;
-  text-transform: uppercase;
-  display: none;
-  padding: 0;
-  margin: 0; }
-  @media (max-width: 420px) {
-    .logo-title {
-      display: inherit; } }
-
-footer {
-  width: 100%;
-  margin-top: 100px;
-  padding-bottom: 30px;
-  color: #ba8058; }
 
 /* corgi colors */
 svg.corgi-red .st0 {
@@ -120,3 +121,16 @@ svg.corgi-blacktan .st2 {
   fill: #FBFEFF; }
 svg.corgi-blacktan .st3 {
   fill: #2D3339; }
+
+svg.logo-image .st0 {
+  fill: #BA8058; }
+svg.logo-image .st1 {
+  fill: #EAAA7F; }
+svg.logo-image .st2 {
+  fill: #F4C6A6; }
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058; }
