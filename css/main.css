@@ -22,11 +22,14 @@ p {
 a {
   text-decoration: none;
   color: #39add1;
-  font-weight: 700; }
+  font-weight: 700;
+  transition: .3s ease-in-out; }
   a:hover {
     color: #111; }
-  a img {
-    fill: #111; }
+    a:hover img {
+      -webkit-filter: brightness(0%);
+      filter: brightness(0%);
+      transition: .3s ease-in-out; }
 
 header {
   padding-top: 10px; }
@@ -80,3 +83,40 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058; }
+
+/* corgi colors */
+svg.corgi-red .st0 {
+  fill: #BA8058; }
+svg.corgi-red .st1 {
+  fill: #FBFEFF; }
+svg.corgi-red .st2 {
+  fill: #2D3339; }
+svg.corgi-red .st3 {
+  fill: #EAAA7F; }
+
+svg.corgi-fawn .st0 {
+  fill: #EAAA7F; }
+svg.corgi-fawn .st1 {
+  fill: #FBFEFF; }
+svg.corgi-fawn .st2 {
+  fill: #2D3339; }
+svg.corgi-fawn .st3 {
+  fill: #F4C6A6; }
+
+svg.corgi-sable .st0 {
+  fill: #844B24; }
+svg.corgi-sable .st1 {
+  fill: #FBFEFF; }
+svg.corgi-sable .st2 {
+  fill: #2D3339; }
+svg.corgi-sable .st3 {
+  fill: #BA8058; }
+
+svg.corgi-blacktan .st0 {
+  fill: #BA8058; }
+svg.corgi-blacktan .st1 {
+  fill: #52595F; }
+svg.corgi-blacktan .st2 {
+  fill: #FBFEFF; }
+svg.corgi-blacktan .st3 {
+  fill: #2D3339; }

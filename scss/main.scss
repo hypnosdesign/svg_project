@@ -26,8 +26,14 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
-    &:hover { color: #111; }
-    img { fill: #111; }
+  transition: .3s ease-in-out;
+    &:hover { color: #111;
+     img {
+        -webkit-filter: brightness(0%);
+        filter: brightness(0%);
+      transition: .3s ease-in-out;}
+    }
+
 } //a
 
 header {
@@ -43,10 +49,10 @@ header {
 
     ul li {
       display: inline-block;
-      margin-right: 20px;
-    }
+      margin-right: 20px; }
   }
 }
+
 
 main {
   padding-top: 50px;
@@ -92,4 +98,34 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+/* corgi colors */
+
+svg.corgi-red {
+  & .st0{fill:#BA8058;}
+  & .st1{fill:#FBFEFF;}
+  & .st2{fill:#2D3339;}
+  & .st3{fill:#EAAA7F;}
+}
+
+svg.corgi-fawn {
+  & .st0{fill:#EAAA7F;}
+  & .st1{fill:#FBFEFF;}
+  & .st2{fill:#2D3339;}
+  & .st3{fill:#F4C6A6;}
+}
+
+svg.corgi-sable {
+  & .st0{fill:#844B24;}
+  & .st1{fill:#FBFEFF;}
+  & .st2{fill:#2D3339;}
+  & .st3{fill:#BA8058;}
+}
+
+svg.corgi-blacktan {
+  & .st0{fill:#BA8058;}
+  & .st1{fill:#52595F;}
+  & .st2{fill:#FBFEFF;}
+  & .st3{fill:#2D3339;}
 }

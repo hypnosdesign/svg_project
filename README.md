@@ -41,7 +41,7 @@ _____________
 **5** [x]
 Change icons in the menu from rasterized images to inline SVGs.
 _______
-**6**
+**6** [x]
 When a user hovers over the menu icons, use CSS to change their color to match the text color.
 ________
 **7**
@@ -74,7 +74,7 @@ To get an "exceeds" rating, you can expand on the project in the following ways:
 **2 Steps**
 ------
 
-**1**
+**1** [x]
 Use inline SVGs for the images of the dogs and then change the color of the dogs' coats using CSS to match the original colors of the dogs. (You can find the colors used by looking at the CSS within the SVG dog files)
 _______
 **2**
